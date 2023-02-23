@@ -1,0 +1,77 @@
+.searchtitle {
+   font-size: 70px;
+   color: transparent;
+   -moz-text-stroke-width: 2px;
+   -webkit-text-stroke-width: 2px;
+   -moz-text-stroke-color: #000000;
+   -webkit-text-stroke-color: #ffffff;
+   text-shadow: 5px 5px #0059ff;
+
+}
+
+.searchinp {
+   font-family: inherit;
+   width: 300px;
+   border: none;
+   border-bottom: 2px solid #00f2ff;
+   outline: 0;
+   font-size: 17px;
+   color: #00a2ff;
+   padding: 7px 0;
+   background: transparent;
+   transition: border-color 0.2s;
+}
+
+.searchinp::placeholder { 
+   color: rgb(0, 76, 255);
+}
+
+.boton {
+   background: #3bfff5;
+   background-image: -webkit-linear-gradient(top, #3bfff5, #5508fa);
+   background-image: -moz-linear-gradient(top, #3bfff5, #5508fa);
+   background-image: -ms-linear-gradient(top, #3bfff5, #5508fa);
+   background-image: -o-linear-gradient(top, #3bfff5, #5508fa);
+   background-image: linear-gradient(to bottom, #3bfff5, #5508fa);
+   -webkit-border-radius: 28;
+   -moz-border-radius: 28;
+   border-radius: 28px;
+   font-family: Georgia;
+   color: #ffffff;
+   font-size: 16px;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+}
+ 
+.boton:hover {
+   background: #5811f0;
+   background-image: -webkit-linear-gradient(top, #5811f0, #05d5fa);
+   background-image: -moz-linear-gradient(top, #5811f0, #05d5fa);
+   background-image: -ms-linear-gradient(top, #5811f0, #05d5fa);
+   background-image: -o-linear-gradient(top, #5811f0, #05d5fa);
+   background-image: linear-gradient(to bottom, #5811f0, #05d5fa);
+   text-decoration: none;
+}
+
+.reset {
+   padding: 10px 30px;
+   border-radius: 10px;
+   border: 0;
+   background-color: rgb(255, 56, 86);
+   letter-spacing: 1.5px;
+   font-size: 15px;
+   transition: all .3s ease;
+   box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+   color: hsl(0, 0%, 100%);
+}
+  
+.reset:hover {
+   box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+  
+.reset:active {
+   background-color: rgb(255, 56, 86);
+   box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+   transform: translateY(5px);
+   transition: 200ms;
+}

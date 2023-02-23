@@ -1,0 +1,53 @@
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.btn {
+  padding: 0.5em 2em 0.5em 2.5em;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 15px;
+  color: #fff6fb;
+  letter-spacing: 0.3em;
+  text-shadow: -2px 2px 5px #3330fd;
+  background-color: transparent;
+  border: 2px solid #b7b1fe;
+  box-shadow: 0 0 0px 1px #124af1,
+    0 0 10px 2px #3041fd,
+    inset 0 0 0px 1px #123ff1,
+    inset 0 0 10px 2px #304bfd;
+  transition: 100ms;
+}
+
+.btn:hover {
+  box-shadow: 0 0 0px 1px #1230f1,
+    0 0 10px 2px #305cfd,
+    inset 0 0 0px 1px #1246f1,
+    inset 0 0 30px 2px #304bfd;
+  text-shadow: 0 0 10px #3052fd;
+  transform: translateY(-5px);
+}
+
+.btn:active {
+  box-shadow: 0 0 0px 1px #1228f1,
+    0 0 25px 2px #3041fd,
+    inset 0 0 0px 1px #1221f1,
+    inset 0 0 30px 2px #304bfd;
+  transform: translateY(1px);
+}
+
+.video {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.btncont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  display: grid;
+  place-items: center;
+}

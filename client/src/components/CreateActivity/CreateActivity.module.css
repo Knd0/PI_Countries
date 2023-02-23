@@ -1,0 +1,68 @@
+.form {
+    padding: 25px;
+  }
+
+.prindiv {
+    border-color: red;
+}
+.contenedorform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 5%;
+    margin-top: 20px;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 700px;
+    text-align: center;
+    display: flex;
+    color: white;
+    box-shadow: 3px 10px 20px 5px rgb(32, 109, 111);
+}
+
+.errors {
+    color: red;
+}
+
+.insidebox {
+    text-align: center;
+    position: relative;
+    align-items: center;
+    left: 50px;
+    justify-content: center;
+}
+
+.inputs {
+    position: relative;
+    margin: 1px 0;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #0ab4b4;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgb(255, 255, 255);
+    color: #0ab4b4;
+    outline: none;
+}
+
+.campos {
+    margin-top: 5px;
+    color: #060606;
+    font-size: 14px;
+    display: flex;
+    padding-bottom: 4px;
+}
+
+.boton {
+    border: 1px solid rgba(10, 180, 180, 1);
+    background: rgba(20, 20, 20, .6);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+  
